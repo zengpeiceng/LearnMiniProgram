@@ -1,16 +1,2 @@
 <!--pages/about/about.wxml-->
-<!-- <text>pages/about/about.wxml</text> -->
- <!-- 1.小程序的数据绑定 ：{{}} -> Mustache-->
- <view>Hello {{message}} !</view>
-
-<view>{{students}}</view>
-
-<view>{{students[0].name}}</view>
-
- <!-- 2.列表展示 ：wx:for -->
- <view wx:for="{{students}}" wx:key="key">{{item.name}}--{{item.age}}</view>
-
- <!-- 3.事件监听，改变Data -->
- <view>当前计数：{{counter}}</view>
- <button size="mini" bindtap="handleBtnClick">+</button>
- <button size="mini" bindtap="handleSubtraction">-</button>
+<text>pages/about/about.wxml</text>
